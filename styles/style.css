@@ -299,3 +299,187 @@ section .btn-primary{
     width: 50px;
     height: 50px;
 }
+/* four section */
+.perfect-place {
+    display: flex;
+    gap: 40px;
+    width: 1170px;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.perfect-place-content {
+    width: 46%;
+}
+
+.perfect-place-content button {
+    margin-top: 20px;
+}
+
+
+.perfect-place-content li {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.video-content{
+    width: 150px;
+}
+.perfect-place-content button {
+    width: 140px;
+    text-align: center;
+    padding-left: 10x;
+    padding-right: 0;
+}
+/* five section */
+.news-letter {
+    display: flex;
+    gap: 50px;
+
+}
+.news-letter {
+    max-width: 1170px;
+    margin: 70px auto;
+
+}
+
+.news-letter-box {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px 20px 0 20px;
+    height: 410px;
+}
+
+.news-letter-tittle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.newspaper-description{
+    margin-bottom: 30px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.news-letter form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+form hr {
+    background: rgba(19, 19, 24, 0.10);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.news-letter form input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    padding-right: 0;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.discount-ad {
+    width: 60%;
+    height: 100%;
+}
+
+.discound-img img {
+    width: 100%;
+}
+
+.discound {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 42%;
+    color: #FFF;
+    text-align: center;
+    padding: 2px;
+    position: relative;
+    left: 260px;
+    transform: translateY(-120px) rotate(-30deg) translateX(100px);
+}
+
+.discound h4 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.discound h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+
+/* footer section */
+footer {
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-container{
+    display: flex;
+    margin-top: 80px;
+}
+.footer-description{
+    margin-top: 50px;
+}
+.footer-container .travel {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer-container p{
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+     font-weight: 800;
+}
+footer section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer .heading {
+    font-size: 1rem;
+}
+.footer-description{
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+footer a {
+    margin-right: 10px;
+}
+
+footer hr {
+    width: 100%;
+    margin: 50px;
+}
+
+.copyright {
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
