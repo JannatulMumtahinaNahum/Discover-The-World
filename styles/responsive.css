@@ -138,4 +138,10 @@
         grid-row: 7;
         grid-column: span 1;
     }
+    
+    .two-quality{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 380px;
+    }
 }
