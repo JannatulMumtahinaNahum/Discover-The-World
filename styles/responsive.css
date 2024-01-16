@@ -1,6 +1,6 @@
 /* mobile view */
 @media screen and (max-width: 600px) {
-    header {
+     header {
         margin: 15px;
     }
 
@@ -23,5 +23,32 @@
 
     .menubar {
         display: block;
+    }
+    /* banner section */
+    .banner{
+        width: 400px;
+        height: 480px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .banner-section{
+        padding: 40px;
+    }
+    .banner-title{
+        font-size: 1.5rem;
+    }
+    .form-section{
+        font-size: 2rem;
+        width: 220px;
+        height: 240px;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+    form input,
+    select,
+    button {
+        width: 95%;
     }
 }
