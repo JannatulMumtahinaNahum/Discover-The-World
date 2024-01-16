@@ -1,0 +1,61 @@
+/* Muslis google font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+/* font styles */
+body {
+    font-family: 'Mulish', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header section styles start */
+header{
+    max-width: 1200px ;
+    margin: 20px auto;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #131318;
+}
+nav .travel{
+    color: #FF5400;
+}
+nav img{
+    width: 56px;
+    height: 48px;
+}
+nav .items-container{
+    display: flex;
+    margin: 0;
+    gap: 2.6rem;
+}
+nav .home{
+    color: #FF5400;
+    font-weight: 700;
+}
+.items-container a{
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+.menubar{
+    display: none;
+}
+/* Header section styles END */

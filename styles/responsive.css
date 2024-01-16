@@ -1,0 +1,27 @@
+/* mobile view */
+@media screen and (max-width: 600px) {
+    header {
+        margin: 15px;
+    }
+
+    .nav-section{
+        justify-content: space-between;
+    }
+
+    nav img{
+        width: 34px;
+        height: 28px;
+    }
+
+    .nav-container{
+        font-size: 1.5rem;
+    }
+
+    nav .items-container {
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+    }
+}
