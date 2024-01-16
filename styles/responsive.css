@@ -45,10 +45,33 @@
         padding: 0;
         margin-bottom: 0;
     }
-    
+
     form input,
     select,
     button {
         width: 95%;
+    }
+
+    /* section no one */
+    .section-no-one{
+        flex-direction: column;
+        margin: 10px;
+        gap: 0;
+    }
+    .section-no-one img{
+        width: 400px;
+        height: 380px;
+    }
+    .section-title{
+        font-size: 1.2rem;
+    }
+    .section-description{
+        font-size: 0.8rem;
+        width: 400px;
+    }
+    section .btn-primary{
+        width: 150px;
+        padding: 10px;
+        margin-bottom: 20px;
     }
 }
