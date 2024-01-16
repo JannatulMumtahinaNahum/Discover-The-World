@@ -148,8 +148,11 @@
         flex-direction: column;
 
     }
+    #third{
+        width: 340px;
+    }
     .vedio-content{
-        transform: scale(0.5);
+        transform: scale(0.7);
     }
     .news-letter{
         flex-direction: column;
