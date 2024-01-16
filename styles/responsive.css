@@ -61,17 +61,22 @@
     .section-no-one img{
         width: 400px;
         height: 380px;
+        margin-left: 5px;
     }
     .section-title{
         font-size: 1.2rem;
+        margin-left: 5px;
+        margin-top: 20px;
     }
     .section-description{
         font-size: 0.8rem;
         width: 400px;
+        margin-left: 5px;
     }
     section .btn-primary{
         width: 150px;
         padding: 10px;
         margin-bottom: 20px;
+        margin-left: 5px;
     }
 }
