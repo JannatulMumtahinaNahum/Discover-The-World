@@ -300,6 +300,18 @@ section .btn-primary{
     height: 50px;
 }
 /* four section */
+.section-titles{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.text-descriptions {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
 .perfect-place {
     display: flex;
     gap: 40px;
@@ -396,7 +408,7 @@ form hr {
     width: 100%;
 }
 
-.discound {
+.discount {
     border-radius: 16px;
     background: #FF5400;
     width: 42%;
